@@ -13,9 +13,9 @@
 
 .carousel-inner img {
 	width: 100%;
-	height: auto;
-	min-height: 300px; /* ADICIONADO para forçar altura mínima */
-	object-fit: contain;
+	height: 100%;
+	min-height: 100px; /* ADICIONADO para forçar altura mínima */
+	object-fit: cover;
 }
 
 @media (max-width: 768px) {
