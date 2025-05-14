@@ -19,11 +19,12 @@
 	}
 }
 .carousel-caption {
-    position: absolute; 
-    bottom: 10px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-   color: orange; 
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    text-align: center; 
+    color: orange; 
     font-weight: bold; 
-    padding: 5px;
+    padding: 10px 0; 
 }
