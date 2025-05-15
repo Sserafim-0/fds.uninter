@@ -1,3 +1,11 @@
+/* Remove margens e padding padrão do navegador para html e body */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 #painel-sobre {
     margin-top: 20px;
 }
