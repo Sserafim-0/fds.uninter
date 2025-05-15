@@ -13,13 +13,12 @@ html, body {
 .titulo-garfield {
   background-color: #0275D8;
   padding: 10px;
-  color: white;
 }
 
 /* Faz o carousel ocupar toda a altura da viewport */
 .carousel,
 .carousel-inner,
-.item {
+.carousel-item {
   height: 100vh;
 }
 
@@ -29,7 +28,7 @@ html, body {
   object-fit: cover;
   border: none;
   outline: none;
-  display: block;
+  display: block;  /* Aqui! Para eliminar margem branca embaixo */
   margin: 0;
   padding: 0;
 }
